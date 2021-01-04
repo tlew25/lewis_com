@@ -8,7 +8,7 @@ $(function(){
     
        projectModalPopup: function() {
            var self = this;
-            $('#btn_modal1, #btn_modal2, #btn_modal3').click(function(){
+            $('#btn_modal1, #btn_modal2, #btn_modal3, #btn_modal4, #btn_modal5, #btn_modal6, #btn_modal7').click(function(){
                 self.$modal.addClass('project_modal--show');
             });
 
