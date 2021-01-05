@@ -99,12 +99,21 @@
 }
 
 .about_item {
+    display: inline-block;
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-size: 1rem;
     line-height: 1.4;
     font-weight: 300;
     padding: 10px;
+}
+
+.about_education--logo {
+    height: 75px;
+    background-repeat: no-repeat;
+    background: cover;
+    background-size: 75px;
+    width: 100%;
 }
 /* End of About me/Education */
 
