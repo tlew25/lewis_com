@@ -59,63 +59,81 @@
 /* End of Navigation */
 
 /* About me/Education */
-.about {
+.about_banner {
     position: relative;
     background-attachment: fixed;
     background-position: bottom;
     background-repeat: no-repeat;
     background: cover;
-    height: 580px;
+    height: 500px;
     background-size: 100%;
     width: 100%;
 }
 
-.about_container {
+.skills {
+    position: relative;
+    background-color: #0E2F35;
+}
+
+.skills_container {
     padding: 30px 0px;
     margin: 0px 55px;
 }
 
-.about_heading {
-    font-family: 'Bungee Outline', cursive;
-    text-align: left;
-    font-size: 1.6rem;
-    color: #E3E4DF;
-}
-
-.about_columns {
+.skills_columns {
     display: table;
-    position: absolute;
-    bottom: 0;
-    left: 0;
     width: 100%;
-    background-color: #0E2F35;
 }
 
-.about_column {
+.skills_column {
     display: table-cell;
-    vertical-align: middle;
     width: 50%;
-    color: #fff;
-}
-
-.about_item {
-    display: inline-block;
-    text-align: center;
     font-family: 'Roboto', sans-serif;
     font-size: 1rem;
     line-height: 1.4;
     font-weight: 300;
-    padding: 10px;
 }
 
-.about_education--logo {
-    height: 75px;
-    background-repeat: no-repeat;
-    background: cover;
-    background-size: 75px;
+.skills_content {
+    text-align: center;
+    padding: 8px;
+    color: #fff;
+    border-bottom: #fff 1px solid;
+}
+
+.skills_heading {
+    font-family: 'Bungee Outline', cursive;
+    text-align: center;
+    font-size: 1.6rem;
+    color: #E3E4DF;
+}
+
+.skills_listing {
+    display: table;
     width: 100%;
 }
-/* End of About me/Education */
+
+.skills_item {
+    display: table-cell;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background: cover;
+    background-size: 85px;
+    background-position: center center;
+    padding: 8px;
+    width: 50%;
+    color: #fff;
+}
+
+.skills_item p {
+    text-align: center;
+}
+
+/* Icons */
+.fab {
+    font-size: 1.2rem;
+    margin: 0px 5px;
+}
 
 /* Project modal pop-up */
 .project_modal {
@@ -255,7 +273,7 @@
 
 /* @Media Queries */
 @media(max-width: 808px) {
-    .project_column, .about_column, .footer_column, .nav_column {
+    .project_column, .skills_column, .footer_column, .nav_column {
         display: block;
         width: 100%;
     }
