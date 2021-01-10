@@ -98,7 +98,6 @@
     text-align: center;
     padding: 8px;
     color: #fff;
-    border-bottom: #fff 1px solid;
 }
 
 .skills_heading {
@@ -106,6 +105,12 @@
     text-align: center;
     font-size: 1.6rem;
     color: #E3E4DF;
+}
+
+.skills_ul {
+    display: block;
+    margin: 0 auto;
+    width: 65%;
 }
 
 .skills_listing {
@@ -123,6 +128,10 @@
     padding: 8px;
     width: 50%;
     color: #fff;
+}
+
+.left {
+    border-left: 1px solid #fff;
 }
 
 .skills_item p {
