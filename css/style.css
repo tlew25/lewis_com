@@ -34,12 +34,12 @@
     text-align: left;
     font-size: 1.8rem;
     color: #eee;
-    -webkit-animation: nav_heading 1s ease-in-out infinite alternate;
+    /* -webkit-animation: nav_heading 1s ease-in-out infinite alternate;
     -moz-animation: nav_heading 1s ease-in-out infinite alternate;
-    animation: nav_heading 1s ease-in-out infinite alternate;
+    animation: nav_heading 1s ease-in-out infinite alternate; */
 }
 
-@-webkit-keyframes nav_heading {
+/* @-webkit-keyframes nav_heading {
   from {
     text-shadow: 0 0 20px #fff, 0 0 30px #F8F8FE, 0 0 0px #A5BAD8, 0 0 20px #A5BAD8, 0 0 30px #A5BAD8, 0 0 40px #A5BAD8, 0 0 60px #A5BAD8;
   }
@@ -47,7 +47,7 @@
   to {
     text-shadow: 0 0 20px #fff, 0 0 30px #CDD9DC, 0 0 40px #CDD9DC, 0 0 30px #CDD9DC, 0 0 40px #CDD9DC, 0 0 50px #CDD9DC, 0 0 60px #CDD9DC;
   }
-}
+} */
 
 .nav_links li {
     display: inline;
@@ -62,10 +62,10 @@
 .about_banner {
     position: relative;
     background-attachment: fixed;
-    background-position: bottom;
+    background-position: left;
     background-repeat: no-repeat;
     background: cover;
-    height: 500px;
+    height: 460px;
     background-size: 100%;
     width: 100%;
 }
@@ -100,7 +100,7 @@
     color: #fff;
 }
 
-.skills_heading {
+.skills_heading, .project_heading {
     font-family: 'Bungee Outline', cursive;
     text-align: center;
     font-size: 1.6rem;
@@ -118,20 +118,25 @@
     width: 100%;
 }
 
+.left {
+    background-color: #E3E4DF;
+}
+
 .skills_item {
     display: table-cell;
     vertical-align: middle;
     background-repeat: no-repeat;
     background: cover;
-    background-size: 85px;
+    background-size: 95px;
     background-position: center center;
     padding: 8px;
     width: 50%;
-    color: #fff;
+    text-align: center;
+    color: #0E2F35;
 }
 
-.left {
-    border-left: 1px solid #fff;
+.skills_lang {
+    word-spacing: 1px;
 }
 
 .skills_item p {
@@ -162,7 +167,7 @@
 
 .project_modal--content {
     height: 600px;
-    background-color: #eee;
+    background-color: #E3E4DF;
     margin: 15% auto;
     padding: 20px;
     border: 2px solid #000;
@@ -231,7 +236,7 @@
     font-size: 1rem;
     line-height: 1.4;
     font-weight: 300;
-    color: #CDD9DC;
+    color: #0E2F35;
 }
 
 .project_item {
