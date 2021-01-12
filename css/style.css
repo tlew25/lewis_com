@@ -1,7 +1,8 @@
-
+/* Container for main page */
 .page_container {
     overflow: hidden;
 }
+/*  End of main page container */
 
 /* Navigation */
 .nav {
@@ -38,6 +39,7 @@
     -moz-animation: nav_heading 1s ease-in-out infinite alternate;
     animation: nav_heading 1s ease-in-out infinite alternate; */
 }
+/* CSS animation for highlighted heading */
 
 /* @-webkit-keyframes nav_heading {
   from {
@@ -48,6 +50,7 @@
     text-shadow: 0 0 20px #fff, 0 0 30px #CDD9DC, 0 0 40px #CDD9DC, 0 0 30px #CDD9DC, 0 0 40px #CDD9DC, 0 0 50px #CDD9DC, 0 0 60px #CDD9DC;
   }
 } */
+/* End CSS animation for highlighted heading */
 
 .nav_links li {
     display: inline;
@@ -58,7 +61,7 @@
 .nav_link {}
 /* End of Navigation */
 
-/* About me/Education */
+/* About me/Skills section w/logos */
 .about_banner {
     background-attachment: fixed;
     background-position: center center;
@@ -145,6 +148,57 @@
     margin: 0px 5px;
 }
 
+/* Projects */
+.projects {
+    position: relative;
+    background-color: #E3E4DF;
+}
+
+.projects_container {
+    padding: 30px 0px;
+    margin: 0px 55px;
+}
+
+.project_heading h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.6rem;
+    color: #0E2F35;
+    text-align: center;
+    margin: 0;
+    padding: 8px;
+}
+
+.project_columns {
+    display: table;
+    width: 100%;
+}
+
+.project_column {
+    display: table-cell;
+    vertical-align: middle;
+    height: 100px;
+    background-repeat: no-repeat;
+    background: cover;
+    background-size: 100%;
+    width: 20%;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    line-height: 1.4;
+    font-weight: 300;
+    color: #0E2F35;
+}
+
+.project_item {
+    padding: 8px;
+}
+
+.project_info {
+    font-size: 9pt;
+    background-color: #0E2F35;
+}
+/* End of Projects */
+
 /* Project modal pop-up */
 .project_modal {
     display: none;
@@ -194,57 +248,6 @@
 }
 /* End of project modal pop-up */
 
-/* Portfolio Projects */
-.projects {
-    position: relative;
-    background-color: #E3E4DF;
-}
-
-.projects_container {
-    padding: 30px 0px;
-    margin: 0px 55px;
-}
-
-.project_heading h3 {
-    font-family: 'Playfair Display', serif;
-    font-size: 1.6rem;
-    color: #0E2F35;
-    text-align: center;
-    margin: 0;
-    padding: 8px;
-}
-
-.project_columns {
-    display: table;
-    width: 100%;
-}
-
-.project_column {
-    display: table-cell;
-    vertical-align: middle;
-    height: 100px;
-    background-repeat: no-repeat;
-    background: cover;
-    background-size: 100%;
-    width: 20%;
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    font-size: 1rem;
-    line-height: 1.4;
-    font-weight: 300;
-    color: #0E2F35;
-}
-
-.project_item {
-    padding: 8px;
-}
-
-.project_info {
-    font-size: 9pt;
-    background-color: #0E2F35;
-}
-/* End of Portfolio Projects */
-
 /* Footer/Social Media */
 .footer {
     position: relative;
@@ -281,7 +284,7 @@
 /* End of Footer/Social Media */
 
 
-/* @Media Queries */
+/* @Media Queries for resizing */
 @media(max-width: 808px) {
     .project_column, .skills_column, .footer_column, .nav_column {
         display: block;
