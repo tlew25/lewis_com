@@ -301,5 +301,14 @@
         padding: 0;
         margin: 0;
     }
+
+    .project_modal--content {
+        height: 385px;
+        background-color: #E3E4DF;
+        margin: 15% auto;
+        padding: 10px;
+        border: 2px solid #000;
+        width: 80%;
+    }
 }
 /* End of @Media Queries */
