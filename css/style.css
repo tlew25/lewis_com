@@ -100,21 +100,22 @@ a {
     display: table-cell;
     width: 50%;
     font-family: 'Roboto', sans-serif;
-    font-size: 1rem;
+    font-size: 1.2rem;
     line-height: 1.4;
     font-weight: 300;
 }
 
 .skills_content {
-    text-align: center;
     padding: 8px;
+    font-size: 1.2rem;
+    text-align: center;
     color: #E3E4DF;;
 }
 
 .skills_heading, .project_heading {
     font-family: 'Caveat', cursive;
     text-align: center;
-    font-size: 1.8rem;
+    font-size: 2.2rem;
     color: #E3E4DF;
 }
 
@@ -314,16 +315,18 @@ a {
 @media(max-width: 808px) {
     .project_column, .skills_column, .footer_column, .nav_column {
         display: block;
+        padding: 5px;
         width: 100%;
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
+
     .skills_content {
-        font-size: 1.6rem; 
+        font-size: 1rem; 
     }
 
     .skills_heading, .project_heading {
         padding: 5px;
-        font-size: 1.2rem;
+        font-size: 1.6rem;
     }
 
     .nav_heading {
