@@ -1,8 +1,12 @@
-/* Container for main page */
-.page_container {
-    overflow: hidden;
+/* Container for main page & general page setup */
+.page_container {overflow: hidden;}
+
+a {
+    text-decoration: none;
+    color: #E3E4DF;
+    cursor: pointer;
 }
-/*  End of main page container */
+/*  End of main page container & general page setup */
 
 /* Navigation */
 .nav {
@@ -54,11 +58,19 @@
 
 .nav_links li {
     display: inline;
-    margin: 0px 5px;
-    text-align: right;
+    font-family: 'Roboto', sans-serif;
+    float: right;
 }
 
 .nav_link {}
+
+.nav_callout {
+    border-radius: 15px;
+    padding: 5px;
+    width: 115px;
+    background-color: #E3E4DF;
+    color: #0E2F35;
+}
 /* End of Navigation */
 
 /* About me/Skills section w/logos */
@@ -146,8 +158,8 @@
 
 /* Icons */
 .fab {
-    font-size: 1.2rem;
-    margin: 0px 5px;
+    font-size: 1.25rem;
+    margin: 0px 8px;
 }
 /* End Icons */
 
@@ -242,12 +254,12 @@
 }
 
 .btn_modal {
-    padding: 1.2em;
+    padding: 1.4em;
     width: 65px;
     border-radius: 50%;
     background-color: #0E2F35;
-    color: #CDD9DC;
-    font-size: 8pt;
+    color: #E3E4DF;
+    font-size: 1.2rem;
 }
 /* End of project modal pop-up */
 
@@ -277,6 +289,17 @@
     padding: 5px;
 }
 
+.footer_content {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    color: #E3E4DF;
+}
+
+.footer_logo {
+    font-family: 'Caveat', cursive;
+    font-size: 1.8rem;
+}
+
 .footer_links li {
     display: inline;
     margin: 0px 5px;
@@ -292,15 +315,19 @@
     .project_column, .skills_column, .footer_column, .nav_column {
         display: block;
         width: 100%;
-        font-size: .9rem;
+        font-size: 1.2rem;
     }
     .skills_content {
-        font-size: .9rem; 
+        font-size: 1.6rem; 
     }
 
     .skills_heading, .project_heading {
         padding: 5px;
         font-size: 1.2rem;
+    }
+
+    .nav_heading {
+        font-size: 2rem;
     }
 
     .skills_container, .nav_container {
