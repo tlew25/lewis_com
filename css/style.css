@@ -290,6 +290,24 @@
     .project_column, .skills_column, .footer_column, .nav_column {
         display: block;
         width: 100%;
+        font-size: .9rem;
+    }
+    .skills_content {
+        font-size: .9rem; 
+    }
+
+    .skills_heading, .project_heading {
+        padding: 8px;
+        font-size: 1.2rem;
+    }
+
+    .skills_container {
+        padding: 0;
+        margin: 0;
+    }
+
+    .skills_item {
+        background-size: 88px;
     }
 }
 /* End of @Media Queries */
