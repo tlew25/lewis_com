@@ -117,6 +117,7 @@
     width: 100%;
 }
 
+/* Gives left skills_column a light background to see text clearly */
 .left {
     background-color: #E3E4DF;
 }
@@ -141,12 +142,14 @@
 .skills_item p {
     text-align: center;
 }
+/* End of About/Skills section */
 
 /* Icons */
 .fab {
     font-size: 1.2rem;
     margin: 0px 5px;
 }
+/* End Icons */
 
 /* Projects */
 .projects {

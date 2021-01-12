@@ -25,9 +25,14 @@ $(function(){
             // });
        },
 
+       dynamicCopyrightTime: function(){
+        $('#footer_copyright').html(new Date().getFullYear());
+       },
+
        startJs: function () {
         startJs.domCache();
         this.projectModalPopup();
+        this.dynamicCopyrightTime();
       }
     };
 
