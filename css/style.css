@@ -45,7 +45,7 @@ a {
 .nav_heading {
     font-family: 'Caveat', cursive;
     text-align: left;
-    font-size: 2.2rem;
+    font-size: 2.8rem;
     color: #E3E4DF;
     /* -webkit-animation: nav_heading 1s ease-in-out infinite alternate;
     -moz-animation: nav_heading 1s ease-in-out infinite alternate;
@@ -83,10 +83,21 @@ a {
 
 /* About me/Skills section w/logos */
 .about_banner {
+    position: relative;
+    padding-bottom: 76.25%;
+    height: 0;
+    width: 100%;
+}
+
+.about_banner--wrap {
     background-attachment: fixed;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 500px;
 }
 
 .skills {
@@ -320,10 +331,16 @@ a {
 
 
 /* @Media Queries for resizing */
+@media(max-width: 480px) {
+    .about_banner {
+        padding-bottom: 110%;
+    }
+}
+
 @media(max-width: 808px) {
     .project_column, .skills_column, .footer_column {
         display: block;
-        padding: 5px;
+        padding: 3px;
         width: 100%;
         font-size: 1rem;
     }
@@ -334,11 +351,11 @@ a {
 
     .skills_heading, .project_heading {
         padding: 5px;
-        font-size: 1.3rem;
+        font-size: 1.6rem;
     }
 
     .nav_heading {
-        font-size: 1.6rem;
+        font-size: 1.8rem;
     }
 
     .skills_container, .nav_container {
