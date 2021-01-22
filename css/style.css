@@ -377,5 +377,10 @@ a {
         font-size: .3rem;
         width: 100%;
     }
+
+    .about_banner--wrap {
+        background-attachment: scroll;
+        height: 280px;
+    }
 }
 /* End of @Media Queries */
